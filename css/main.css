@@ -108,6 +108,17 @@ a:hover{
     border: none;
     border-radius: 35px;
 }
+.MainLink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 540px;
+    z-index: 1;
+}
 #MainBG{
     display: flex;
     flex-direction: column;
@@ -127,6 +138,7 @@ a:hover{
     max-width: 800px;
     margin: 0 auto;
     margin-top: 2.5em;
+    z-index: 2;
 }
 
 #MainBG div div{
