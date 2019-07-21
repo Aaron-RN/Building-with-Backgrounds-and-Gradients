@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+h1{
+    font-size: 4.6em;
+    font-family: 'Assistant', sans-serif;
+}
+
+h2{
+    font-size: 4em;
+    font-family: 'Assistant', sans-serif;
+}
+
+h3{
+    font-size: 3em;
+    font-family: 'Assistant', sans-serif;
+}
+
+h4{
+    font-size: 2.35em;
+    font-family: 'Assistant', sans-serif;
+}
+h5{
+    font-size: 2em;
+    font-family: 'Assistant', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#TopNavbar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top:80px;
+    z-index: 999;
+    font-family: Calibri;
+    background: #707070;
+    background: -webkit-linear-gradient(to top, #707070 50%, #808080 50%);
+    background: -moz-linear-gradient(to top, #707070 50%, #808080 50%);
+    background: linear-gradient(to top, #707070 50%, #808080 50%);
+    color: white;
+    width: 980px;
+    line-height: 38px;
+    border-radius: 5px;
+    text-shadow: 0px -1px #333;
+}
+
+#TopNavbar button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 0px -1px #333;
+}
+#TopNavbar a{
+    cursor: pointer;
+}
+#TopNavbar a:hover{
+    background: #505050;
+    background: -webkit-linear-gradient(to top, #505050 50%, #606060 50%);
+    background: -moz-linear-gradient(to top, #505050 50%, #606060 50%);
+    background: linear-gradient(to top, #505050 50%, #606060 50%);
+    text-decoration: none;
+}
+#TopNavbar a:nth-child(1):hover{
+    border-radius: 5px 0 0 5px;
+}
+#TopNavbar a, #TopNavbar div{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-right: 1px #606060 solid;
+    vertical-align: middle;
+}
+#TopNavbar div:last-child{
+    width: 128%;
+    border-right: none;
+}
+.magnify-icon{
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+#TopNavbar div input[type=search]{
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: linear-gradient(to top, #808080 50%, #909090 50%);
+    border: none;
+    border-radius: 35px;
+}
+.MainLink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 540px;
+    z-index: 1;
+}
+#MainBG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 42px;
+    background-image: url(../images/MainBG.jpg);
+    background-position: 1440px 540px;
+    width: 1440px;
+    height: 540px;
+}
+
+#MainBG div{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    z-index: 2;
+}
+
+#MainBG div div{
+    margin-bottom: 2em;
+}
+
+#MainBG div div a{
+    color: white;
+    text-decoration: none;
+}
+#MainBG #Stories:hover{
+    border-bottom: 1px white solid;
+}
+
+#BottomSection{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+#BottomSection div{
+    margin: 1px;
+}
+
+#BottomSection div:nth-child(1){
+    margin: 0px;
+}
+
+#BottomSection div:last-child{
+    margin: 0px;
+}
+
+#bottomImage1{
+    background-image: url(../images/SmallBG-1.jpg);
+    background-size: cover;
+    width: 364px;
+    height: 200px;
+}
+#bottomImage2{
+    background-image: url(../images/SmallBG-2.jpg);
+    background-size: cover;
+    width: 364px;
+    height: 200px;
+}
+#bottomImage3{
+    background-image: url(../images/SmallBG-3.jpg);
+    background-size: cover;
+    width: 364px;
+    height: 200px;
+}
+#bottomImage4{
+    background-image: url(../images/SmallBG-4.jpg);
+    background-size: cover;
+    width: 364px;
+    height: 200px;
+}
+
+#footerWrapper{
+    color: grey;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 1em 0 2.6em;
+}
+#footerWrapper div a{
+    border-left: 1px lightgrey solid;
+    padding: 0 4px 0 4px;
+    color: dodgerblue;
+}
+.no-border{
+    border: none !important;
+}
+
+.bold{font-weight: bold;}
+.text-white{color: white;}
+.size-22{font-size: 22px;}
+.size-20{font-size: 20px;}
+.size-18{font-size: 18px;}
+.size-12{font-size: 12px;}
+.size-10{font-size: 10px;}
