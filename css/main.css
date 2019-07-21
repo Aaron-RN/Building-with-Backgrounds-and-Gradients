@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-/*
-div, a{
-    outline: 1px red solid;
-}
-*/
 
 body{
     font-stretch: normal;
@@ -60,10 +55,6 @@ a:hover{
     background: -webkit-linear-gradient(to top, #707070 50%, #808080 50%);
     background: -moz-linear-gradient(to top, #707070 50%, #808080 50%);
     background: linear-gradient(to top, #707070 50%, #808080 50%);
-/*
-    background: linear-gradient(to top, #757575 6%, #606060, #707070 50%, #909090 50%);
-    background: linear-gradient(to top, #757575 6%, #606060, #707070 50%, #909090);
-*/
     color: white;
     width: 980px;
     line-height: 38px;
@@ -71,6 +62,17 @@ a:hover{
     text-shadow: 0px -1px #333;
 }
 
+#TopNavbar button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 0px -1px #333;
+}
 #TopNavbar a{
     cursor: pointer;
 }
