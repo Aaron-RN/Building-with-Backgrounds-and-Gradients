@@ -10,3 +10,6 @@ Website to mimic: https://web.archive.org/web/20140301004610/http://www.apple.co
 
 ## Github Project Link
 ### https://github.com/Aaron-RN/Building-with-Backgrounds-and-Gradients/tree/Development
+
+## Live Link
+### https://raw.githack.com/Aaron-RN/Building-with-Backgrounds-and-Gradients/master/index.html
