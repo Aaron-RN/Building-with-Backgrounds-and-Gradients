@@ -6,6 +6,8 @@ In this project you’ll clone the website of one of the most design-forward com
 
 __Website to mimic__: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
+![](screenshot.png)
+
 ### [Live Demo Link](https://raw.githack.com/Aaron-RN/Building-with-Backgrounds-and-Gradients/master/index.html)
 
 ## Built With
